@@ -22,6 +22,7 @@ public class Upload {
 //		driver.manage().window().maximize();
 		driver.get("https://www.urbanladder.com/");
 		System.out.println(driver.getTitle());
+		System.out.println("Hi HEllo Shwetha Ramamurthy");
 		Thread.sleep(5000);
 		driver.close();
 	}
