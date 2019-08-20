@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="98899" started-at="2019-08-16T09:04:18Z" finished-at="2019-08-16T09:05:57Z">
+  <suite name="Default suite" duration-ms="18822" started-at="2019-08-20T12:25:21Z" finished-at="2019-08-20T12:25:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="98899" started-at="2019-08-16T09:04:18Z" finished-at="2019-08-16T09:05:57Z">
-      <class name="homepage.Upload">
-        <test-method status="PASS" signature="set()[pri:0, instance:homepage.Upload@3aa9e816]" name="set" is-config="true" duration-ms="29" started-at="2019-08-16T14:34:19Z" finished-at="2019-08-16T14:34:19Z">
+    <test name="Default test" duration-ms="18822" started-at="2019-08-20T12:25:21Z" finished-at="2019-08-20T12:25:40Z">
+      <class name="homepage.redbus">
+        <test-method status="PASS" signature="bookticket()[pri:0, instance:homepage.redbus@6ad5c04e]" name="bookticket" duration-ms="18772" started-at="2019-08-20T17:55:21Z" finished-at="2019-08-20T17:55:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- set -->
-        <test-method status="PASS" signature="runtest()[pri:0, instance:homepage.Upload@3aa9e816]" name="runtest" duration-ms="98683" started-at="2019-08-16T14:34:19Z" finished-at="2019-08-16T14:35:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtest -->
-      </class> <!-- homepage.Upload -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- bookticket -->
+      </class> <!-- homepage.redbus -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
